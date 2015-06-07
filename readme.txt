@@ -4,13 +4,15 @@ Developer url: http://www.inventive3d.com
 Tags: gravity forms, tooltip, tooltips
 Requires at least: 3.1
 Tested up to: 4.3
-Stable tag: 0.13
+Stable tag: 0.14
 
 
 == Description ==
 
 Inventive gravity forms tooltips, transforms gravity forms description into a tooltip.
 When you hover on a gravity forms input, a tooltip will show.
+
+<a href="http://www.inventive3d.com/en/product/wooden-custom-3d-portrait-hand-painted/">Demo</a>
 
 To do: administrative options (colors, dimensions, position etc)
 
