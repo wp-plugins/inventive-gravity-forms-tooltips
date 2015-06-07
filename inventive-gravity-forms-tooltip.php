@@ -3,7 +3,7 @@
 Plugin Name: Inventive gravity forms tooltip
 Plugin URI: http://www.inventive3d.com
 Description: Show tooltip on hover over gravity forms fields
-Version: 0.1
+Version: 0.14
 Author: Inventive3d
 Author URI: http://www.inventive3d.com
 License: GPL2
