@@ -10,15 +10,14 @@ $( ".gform_fields" ).find( "li" ).each(function() {
 */
 $( ".gform_fields" ).find( ":input").hover(function(event){
 	event.stopPropagation();
-	var li = $(this).closest("li").attr("id");
+	var li = $(this).closest(".gfield").attr("id");
 	var div = document.getElementById (li);
 
-//$( ".gform_fields" ).find(".gfield").css({"height":$( ".gform_fields" ).find("li").height()});
-	
-	$(this).parent().parent().find( "div" ).each(function() {
-	
-  if ($(this).attr("class") == "gfield_description") {
-	  
+	$(this).closest(".gfield").find(".gfield_description").each(function() {
+
+
+  if ($(this).html() != "") {
+	  console.log(li);
 	  $(".inventive-gravity-tooltip").appendTo("#"+li);
 	  $(".inventive-tooltip-container").html($(this).html());
       $(".inventive-gravity-tooltip").stop().fadeIn();
