@@ -4,7 +4,7 @@ Developer url: http://www.inventive3d.com
 Tags: gravity forms, tooltip, tooltips
 Requires at least: 3.1
 Tested up to: 4.3
-Stable tag: 0.15
+Stable tag: 0.16
 
 
 == Description ==
